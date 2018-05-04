@@ -1,7 +1,7 @@
 # COD-bhv-sim-trace
 ## A few efforts to help students find their bugs
 ### 我们会在实验三中更新环境
-### 使用说明：<br>
+使用说明：<br>
 	1.	将mips_cpu_test.v覆盖原工程hardward/source/testbench下的mips_cpu_test.v <br> <br>
 	2.	将希望测试的 golden_trace 放在相同目录下。修改 mips_cpu_test.v 中 TRACE_REF_FILE 的值为 golden_trace 的绝对地址 <br> <br>
 	![image](https://github.com/zxhero/COD-bhv-sim-trace/blob/master/addr.PNG) <br> <br> <br>
