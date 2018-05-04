@@ -3,7 +3,7 @@
 ### 我们会在实验三中更新环境，注意：这是测试版本！！！！
 使用说明：<br>
 	1.	将mips_cpu_test.v覆盖原工程hardward/source/testbench下的mips_cpu_test.v <br> <br>
-	2.	将希望测试的 golden_trace 放在相同目录下。修改 mips_cpu_test.v 中 TRACE_REF_FILE 的值为 golden_trace 的绝对地址 <br> <br>
+	2.	将希望测试的 golden_trace 放在相同目录下。修改 mips_cpu_test.v 中 TRACE_REF_FILE 的值为 golden_trace 的绝对地址（pwd命令可查看绝对地址） <br> <br>
 	![image](https://github.com/zxhero/COD-bhv-sim-trace/blob/master/addr.PNG) <br> <br> <br>
 	3.	将您CPU代码中的reg_file实例化的名字改为rf_i（在mips_cpu.v中) 或者将mips_cpu_test.v中的关键字"rf_i"
 		全部改为您reg_file实例化的名字。 <br> <br> 
