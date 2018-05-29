@@ -13,5 +13,9 @@
 	6.	当出现错误时，会产生如下信息：上面一行是：[报错时间(ns)] 报错位置。下面一行是：正确值 <br> <br>
 	![image](https://github.com/zxhero/COD-bhv-sim-trace/blob/master/wrong.PNG)  <br> <br> <br>
 	7.	感谢熊可欣和吴瑜萍同学提供的错误的CPU <br>
+	<br>
+	<br>
+	8.	希望打印mem内存的同学，请使用mem_dump/文件夹下的tb，使用前请修改MEM_DUMP_FILE。<br>
+	9.	若希望在某个PC初打印mem内存，请将HALT_PC值修改为相应PC。并将59行反注释，注释60行。<br>
 	
 		
