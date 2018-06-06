@@ -57,7 +57,7 @@ module mips_cpu_test
 	always @(posedge mips_cpu_clk)
 	begin
 	   //if(u_mips_cpu.u_mips_cpu_top.u_mips_cpu.PC == `HALT_PC && flag == 1)
-	if(u_mips_cpu.u_mips_cpu_top.u_mips_cpu.MemWrite == 1'b1 && u_mips_cpu.u_mips_cpu_top.u_mips_cpu.Write_data == 'd0 && flag == 1'b1 && u_mips_cpu.u_mips_cpu_top.u_mips_cpu.Address == 'd12)
+	if(u_mips_cpu.u_mips_cpu_top.u_mips_cpu.MemWrite == 1'b1 && flag == 1'b1 && u_mips_cpu.u_mips_cpu_top.u_mips_cpu.Address == 'd12)
 	   begin
 	       flag = 0;
 		$fdisplay(trace_ref, "%h %h %h %h", 
